@@ -26,4 +26,4 @@ else if(eta > 65){
 }
 
 /*risultato*/
-console.log(prezzo)
+console.log( 'il prezzo del tuo biglietto è:', prezzo)
