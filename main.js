@@ -14,14 +14,16 @@ let tariffa = 0.21;
 /*calcolo il prezzo del biglietto in base ai chilometri*/
 let prezzo = chilometri * tariffa;
 
-console.log(prezzo);
 
 /*sconto in base all'età*/
 if(eta < 18){
     let discount = prezzo * 0.2;
     prezzo = prezzo - discount;
-} else if(eta > 65){
+} 
+else if(eta > 65){
     let discount = prezzo * 0.4;
     prezzo = prezzo - discount;
 }
-//scrivere in modo leggibile il risultato formattando il numero con 2 decimali
+
+/*risultato*/
+console.log(prezzo)
